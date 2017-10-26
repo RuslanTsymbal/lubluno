@@ -52,12 +52,10 @@ $(function(){
   /*Formstyler*/
   if($('.styled_js').length) {
     $('.styled_js').styler();
-    $('.check_js').styler();
   }
 
-   /*Calendar jquery-ui */
 
-
+  /*Calendar jquery-ui */
   if ($('.calendar_js').length) {
     $( function() {
       $( ".calendar_js" ).datepicker();
@@ -74,8 +72,9 @@ $(function(){
     $(this).toggleClass('lang-active_js');
   });
 
+
   //Add class checkbox in form
-  $( '.check_js').click(function() {
+  $( '.checked_js').click(function() {
     $(this).toggleClass('checked');
   });
 
@@ -83,8 +82,7 @@ $(function(){
   //burger-menu
   $( ".burger-menu" ).click(function() {
     $(".header-content").toggleClass('display-flex');
-    $(".burger-menu").toggleClass('burger-menu__click');
-    $(this).toggleClass('burger-menu_change');
+    $(this).toggleClass('burger-menu__click');
 
     var darkBlock = $("div").is("#overlay");
 
