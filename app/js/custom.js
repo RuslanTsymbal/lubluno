@@ -62,9 +62,13 @@ $(function(){
     });
   }
 
-  // $('.field-time__block').click(function() {
-  //   $("#ui-datepicker-div").toggleClass('display-block');
-  // });
+  $('.box-people_right .field-time__block').click(function() {
+    $( "#departure" ).focus();
+  });
+
+  $('.box-people_left .field-time__block').click(function() {
+    $( "#arrival" ).focus();
+  });
 
   //Add active class language item
   $( '.list-lang__link').click(function() {

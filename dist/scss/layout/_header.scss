@@ -58,6 +58,10 @@ header{
   color: #fd6262;
 }
 
+.list-lang__item {
+  text-align: center;
+}
+
 .list-lang__link {
   display: block;
   width: 30px;
@@ -67,14 +71,15 @@ header{
   font-weight: 300;
   line-height: 2.9rem;
   letter-spacing: 0.07px;
-  border: transparent;
+  border: 1px solid transparent;
 }
 
 .lang-active_js {
-  background-image: url(../img/bg-lang__link.png);
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  background-position: center center;
+  border: 1px solid #d9d7d4;
+}
+
+.list-lang__link:hover {
+  border: 1px solid #d9d7d4;
 }
 
 .main-nav-right-list {
@@ -115,12 +120,8 @@ header{
   color: #fd6262;
 }
 
-.list-lang__item {
-  text-align: center;
-}
-
 .burger-menu {
-  z-index: 8;
+  z-index: 113;
   cursor: pointer;
   display: none;
 }
@@ -138,25 +139,18 @@ header{
   transition: 0.4s;
 }
 
-.burger-menu_change .bar1 {
+.burger-menu__click .bar1 {
   -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
   transform: rotate(-45deg) translate(-8px, 6px) ;
 }
 
-.burger-menu_change .bar2 {
+.burger-menu__click .bar2 {
   opacity: 0;
 }
 
-.burger-menu_change .bar3 {
+.burger-menu__click .bar3 {
   -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
   transform: rotate(45deg) translate(-8px, -8px) ;
-}
-
-.burger-menu:hover {
-
-  .burger-menu__line {
-    background-color: #fd6262;
-  }
 }
 
 .burger-menu__click {
@@ -197,6 +191,11 @@ header{
 }
 
 
+
+/**************************@media*************************************/
+
+
+
 @media screen and (max-width: 1024px) {
 
   .box-lang {
@@ -212,7 +211,7 @@ header{
   top: 0;
   left: 0;
   background-color: black;
-  z-index: 1;
+  z-index: 111;
 }
 
 
@@ -235,10 +234,11 @@ header{
     right: -20px;
     top: 0;
     width: 60%;
+    padding-top: 60px;
     background-color: #9d9d9d;
     border-radius: 0 0 0 10px;
     display: none;
-    z-index: 7;
+    z-index: 112;
     border-left: 1px solid #fff;
     border-bottom: 1px solid #fff;
   }

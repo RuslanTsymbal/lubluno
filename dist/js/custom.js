@@ -37,7 +37,7 @@ $(function(){
 	});
 
   /*Slick*/
-  if('.my-slide_js') {
+  if($('.my-slide_js').length) {
     $('.my-slide_js').slick({
       dots: false,
       infinite: true,
@@ -52,14 +52,23 @@ $(function(){
   /*Formstyler*/
   if($('.styled_js').length) {
     $('.styled_js').styler();
-    $('.check_js').styler();
   }
 
-   /*Calendar jquery-ui */
 
-  if($('.calendar_js').length) {
-    $('.calendar_js').datepicker();
+  /*Calendar jquery-ui */
+  if ($('.calendar_js').length) {
+    $( function() {
+      $( ".calendar_js" ).datepicker();
+    });
   }
+
+  $('.box-people_right .field-time__block').click(function() {
+    $( "#departure" ).focus();
+  });
+
+  $('.box-people_left .field-time__block').click(function() {
+    $( "#arrival" ).focus();
+  });
 
   //Add active class language item
   $( '.list-lang__link').click(function() {
@@ -67,8 +76,9 @@ $(function(){
     $(this).toggleClass('lang-active_js');
   });
 
+
   //Add class checkbox in form
-  $( '.check_js').click(function() {
+  $( '.checked_js').click(function() {
     $(this).toggleClass('checked');
   });
 
@@ -76,15 +86,14 @@ $(function(){
   //burger-menu
   $( ".burger-menu" ).click(function() {
     $(".header-content").toggleClass('display-flex');
-    $(".burger-menu").toggleClass('burger-menu__click');
-    $(this).toggleClass('burger-menu_change');
+    $(this).toggleClass('burger-menu__click');
 
     var darkBlock = $("div").is("#overlay");
 
     if (darkBlock) {
       $("#overlay").remove();
     } else {
-      $("html,body").css("overflow","hidden");
+      // $("html,body").css("overflow","hidden");
 
     var docHeight = $(document).height();
 

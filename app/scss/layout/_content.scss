@@ -89,12 +89,14 @@ h3{
 }
 
 .content-left {
-  max-width: 33%;
+  width: 50%;
+  padding-right: 20px;
 }
 
 .content-right {
-  width: 55%;
-  margin-left: 5.6%;
+  width: 50%;
+  padding-left: 47px;
+  padding-right: 113px;
   padding-top: 1.8rem;
 }
 
@@ -170,7 +172,7 @@ h3{
 }
 
 .products-list__item {
-  width: 31.5%;
+  width: 31%;
   min-height: 133px;
   margin-bottom: 15px;
 }
@@ -313,16 +315,8 @@ h3{
 }
 
 
-@media screen and (max-width: 1400px) {
 
-  .content-right {
-    max-width: 494px;
-  }
-
-  .content-left {
-    max-width: 631px;
-  }
-}
+/**************************@media*************************************/
 
 
 
@@ -369,6 +363,10 @@ h3{
     }
   }
 
+  .content-right {
+    padding-right: 0;
+  }
+
   .result {
     text-align: center;
   }
@@ -398,15 +396,6 @@ h3{
     width: 100%;
   }
 
-  .content-right,
-  .content-left {
-    max-width: 45%;
-  }
-
-  .content-right {
-    margin-left: 0;
-  }
-
   .content .wrapper {
     justify-content: space-between;
   }
@@ -421,8 +410,13 @@ h3{
 
   .content-right,
   .content-left {
-    max-width: 100%;
     width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .content-right {
+    padding-top: 2.8rem;
   }
 
   .content .wrapper {
@@ -475,9 +469,9 @@ h3{
 
   .field-rom .type-number__option {
 
-     .type-number__option {
-        text-align:  center;
-     }
+    .type-number__option {
+      text-align:  center;
+    }
   }
 
   .field-rom {
@@ -492,6 +486,7 @@ h3{
     }
   }
 }
+
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
 
@@ -538,7 +533,6 @@ h3{
     line-height: 1.9rem!important;
   }
 }
-
 
 @media screen and (max-width: 400px) {
 

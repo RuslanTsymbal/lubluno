@@ -49,10 +49,6 @@
 .field-rom {
 
   .jq-selectbox__select {
-    background-image: url(../img/bg-people.png);
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-position: left 7px center;
     padding-left: 71px;
   }
 
@@ -113,7 +109,7 @@
   border-right: 1px solid #9d9d9d;
   border-bottom: 1px solid #9d9d9d;
   border-left: 1px solid #9d9d9d;
-  background-color: #ffffff;
+  background-color: transparent;
   border-radius: 0;
   text-align: center;
 }
@@ -178,10 +174,6 @@
   .jq-selectbox__dropdown {
     top: 33px!important;
   }
-}
-
-.jq-selectbox.focused .jq-selectbox__select {
-  // background: transparent;
 }
 
 .jq-selectbox.jqselect.styled_js.select-num.dropdown.opened {
@@ -253,7 +245,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 80%;
+  width: 78%;
 }
 
 .field-time__icon:after {
@@ -278,7 +270,7 @@
   }
 
   .box-people {
-    width: 80%;
+    width: 78%;
     justify-content: flex-start;
   }
 
@@ -294,7 +286,7 @@
   }
 
   .box-people {
-    width: 80%;
+    width: 78%;
     justify-content: flex-start;
   }
 
@@ -341,7 +333,6 @@
   line-height: 2.93rem;
 }
 
-
 .label-1 {
   cursor: pointer;
 
@@ -361,7 +352,6 @@
     margin-right: 5px;
   }
 }
-
 
 .label-2 {
   cursor: pointer;
@@ -427,4 +417,3 @@
   font-weight: 400;
   line-height: 29.34px;
 }
-
