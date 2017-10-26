@@ -1,0 +1,35 @@
+// Кнопки
+
+.button {
+  display: block;
+  vertical-align: middle;
+  outline: 0 none;
+  border: 0 none;
+}
+
+.form-button {
+  width: 182px;
+  height: 52px;
+  background-color: #642121;
+  color: #ffffff;
+  font-family: $bold-font-family;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 2.93rem;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+
+.form-button:hover {
+  background-color: #fff;
+  color: #642121;
+  border: 1px solid  #642121;
+}
+
+
+@media screen and (max-width: 1365px) {
+
+  .form-button {
+    margin: 0 auto;
+  }
+}

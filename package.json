@@ -1,0 +1,27 @@
+{
+  "name": "start-frontend-project",
+  "version": "1.0.0",
+  "author": "Igor Levchenko",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/redwon/start-frontend-project.git"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.0.1",
+    "browser-sync": "^2.18.8",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-cache": "^0.4.6",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-imagemin": "^3.4.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.1",
+    "gulp-uglifyjs": "^0.6.2",
+    "gulp.spritesmith": "^6.5.1",
+    "imagemin-pngquant": "^5.0.1"
+  }
+}

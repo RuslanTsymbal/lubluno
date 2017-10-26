@@ -1,0 +1,249 @@
+@font-face {
+  font-family:'Roboto Light';
+  src: url('../fonts/Roboto Light.eot');
+  src: url('../fonts/Roboto Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Roboto Light.woff2') format('woff2'),
+    url('../fonts/Roboto Light.woff') format('woff'),
+    url('../fonts/Roboto Light.svg#Roboto Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-2044;
+}
+
+
+@font-face {
+  font-family:'Roboto';
+  src: url('../fonts/Roboto Regular.eot');
+  src: url('../fonts/Roboto Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Roboto Regular.woff2') format('woff2'),
+    url('../fonts/Roboto Regular.woff') format('woff'),
+    url('../fonts/Roboto Regular.svg#Roboto Regular') format('svg');
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-2044;
+}
+
+@font-face {
+  font-family:'Roboto Medium';
+  src: url('../fonts/Roboto Medium.eot');
+  src: url('../fonts/Roboto Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Roboto Medium.woff2') format('woff2'),
+    url('../fonts/Roboto Medium.woff') format('woff'),
+    url('../fonts/Roboto Medium.svg#o Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-2044;
+}
+
+@font-face {
+  font-family:'Roboto Bold';
+  src: url('../fonts/Roboto Bold.eot');
+  src: url('../fonts/Roboto Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Roboto Bold.woff2') format('woff2'),
+    url('../fonts/Roboto Bold.woff') format('woff'),
+    url('../fonts/Roboto Bold.ttf') format('truetype'),
+    url('../fonts/Roboto Bold.svg#Roboto Bold') format('svg');
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-2044;
+}
+
+@font-face {
+  font-family: 'Font-Name';
+  src:  url('../fonts/Font-Name.eot?d5bm0w');
+  src:  url('../fonts/Font-Name.eot?d5bm0w#iefix') format('embedded-opentype'),
+    url('../fonts/Font-Name.ttf?d5bm0w') format('truetype'),
+    url('../fonts/Font-Name.woff?d5bm0w') format('woff'),
+    url('../fonts/Font-Name.svg?d5bm0w#Font-Name') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Font-Name' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-1font:before {
+  content: "\e901";
+  color: #fff;
+}
+.icon-2font:before {
+  content: "\e902";
+  color: #fff;
+}
+.icon-3font:before {
+  content: "\e903";
+  color: #fff;
+}
+.icon-4font:before {
+  content: "\e904";
+  color: #fff;
+}
+.icon-5font:before {
+  content: "\e905";
+  color: #fff;
+}
+.icon-6font:before {
+  content: "\e907";
+  color: #fff;
+}
+.icon-72font:before {
+  content: "\e908";
+  color: #fff;
+}
+.icon-8font:before {
+  content: "\e909";
+  color: #fff;
+}
+.icon-9font:before {
+  content: "\e90a";
+  color: #fff;
+}
+.icon-10font:before {
+  content: "\e90b";
+  color: #fff;
+}
+.icon-11font:before {
+  content: "\e90c";
+  color: #fff;
+}
+.icon-12font:before {
+  content: "\e90d";
+  color: #fff;
+}
+.icon-13font:before {
+  content: "\e90e";
+  color: #fff;
+}
+.icon-14font:before {
+  content: "\e90f";
+  color: #fff;
+}
+.icon-15font:before {
+  content: "\e910";
+  color: #fff;
+}
+.icon-16font:before {
+  content: "\e911";
+  color: #fff;
+}
+.icon-17font:before {
+  content: "\e912";
+  color: #fff;
+}
+.icon-18font:before {
+  content: "\e913";
+  color: #fff;
+}
+.icon-19font:before {
+  content: "\e914";
+  color: #fff;
+}
+.icon-20font:before {
+  content: "\e915";
+  color: #fff;
+}
+.icon-21font:before {
+  content: "\e916";
+  color: #fff;
+}
+.icon-22font:before {
+  content: "\e917";
+  color: #fff;
+}
+.icon-23font:before {
+  content: "\e918";
+  color: #fff;
+}
+.icon-24font:before {
+  content: "\e919";
+  color: #fff;
+}
+.icon-25font:before {
+  content: "\e91a";
+  color: #fff;
+}
+.icon-26font:before {
+  content: "\e91b";
+  color: #fff;
+}
+.icon-27font:before {
+  content: "\e91c";
+}
+.icon-arrow_rightfont:before {
+  content: "\e91d";
+}
+.icon-checkfont:before {
+  content: "\e91e";
+}
+.icon-datefont:before {
+  content: "\e91f";
+  color: #545454;
+}
+.icon-fbfont:before {
+  content: "\e920";
+  color: #fff;
+}
+.icon-img_1font:before {
+  content: "\e921";
+  color: #fff;
+}
+.icon-img_2font:before {
+  content: "\e922";
+  color: #fff;
+}
+.icon-img_3font:before {
+  content: "\e923";
+  color: #fff;
+}
+.icon-instagramfont:before {
+  content: "\e924";
+  color: #fff;
+}
+.icon-people_1font:before {
+  content: "\e925";
+  color: #fff;
+}
+.icon-people_2font:before {
+  content: "\e926";
+  color: #fff;
+}
+.icon-people_3font:before {
+  content: "\e927";
+  color: #fff;
+}
+.icon-telfont:before {
+  content: "\e928";
+  color: #fff;
+}
+.icon-vkfont:before {
+  content: "\e929";
+  color: #fff;
+}
+.icon-zoomfont:before {
+  content: "\e92a";
+  color: #fff;
+}
+.icon-7font:before {
+  content: "\e900";
+  color: #fff;
+}
+.icon-pencil2font:before {
+  content: "\e906";
+}
+
